@@ -1,0 +1,105 @@
+.mom {
+    border: 1px solid black;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    /* Stack the items vertically */
+    align-items: center;
+    /* Center everything horizontally */
+    justify-content: center;
+    /* Center everything vertically */
+    text-align: center;
+    height: 50vh;
+    /* Make the parent container fill the viewport height */
+    border: 2px solid #ddd;
+    /* Optional: a border around the parent container */
+    padding: 20px;
+    box-sizing: border-box;
+    border-radius: 20px;
+    background-color: rgba(0, 0, 0, 0.452);
+    max-width: 600px;
+    /* Maximum width of the container */
+    margin: 20px auto;
+    /* Center the container */
+    text-align: center;
+    position: relative;
+    /* Important: Enables absolute positioning for icons inside */
+    border: 2px solid #4CAF50;
+    /* Add border around the mom container */
+    border-radius: 10px;
+    /* Rounded corners for the border */
+}
+
+.grr {
+    border: 1px solid black;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    display: flex;
+    align-self: center;
+
+}
+
+
+
+
+
+.dead {
+    border: 1px solid black;
+    width: 80%;
+    /* Makes the slider 80% of its parent container */
+    height: 20px;
+    /* Increase the height of the range slider */
+    background: #ddd;
+    /* Light background color for the range */
+    border-radius: 10px;
+    /* Round the edges of the slider */
+    margin: 10px 0;
+    /* Adds space above and below the slider */
+    -webkit-appearance: none;
+    /* Remove default styling in webkit browsers */
+    appearance: none;
+
+    height: 10px;
+    /* Increase track height */
+    background: #4CAF50;
+    /* Green track */
+    border-radius: 5px;
+}
+
+.et {
+    border: 1px solid black;
+    border-radius: 10px;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    color: #4CAF50;
+    box-shadow: 5px 5px 5px #4CAF50;
+
+}
+
+.er {
+    border: 1px solid black;
+    border-radius: 10px;
+    border-radius: 50%;
+    width: 90px;
+    height: 90px;
+    background-color: black;
+    color: white;
+    box-shadow: 5px 5px 5px #4CAF50;
+
+}
+
+.ey {
+    border: 1px solid black;
+    border-radius: 10px;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    color: #4CAF50;
+    box-shadow: 5px 5px 5px #4CAF50;
+}
+
+h3 {
+    box-shadow: 5px 5px 5px #4CAF50;
+}
